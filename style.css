@@ -57,7 +57,6 @@ body {
   input {
     display: block;
     padding: 10px 15px;
-    width: 50%;
   }
   
   button {
@@ -119,4 +118,18 @@ body {
   label:nth-child(4){
     display: flex;
     justify-content: flex-end;
+  }
+
+  @media screen and (max-width:1020px) {
+    .container {
+      padding: 0;
+    }
+
+    label:nth-child(2) {
+      gap: 0;
+    }
+
+    label{
+      justify-content: flex-end;
+    }
   }
