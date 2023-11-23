@@ -1,0 +1,122 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url(./img/imagens-de-fundo-abstrato-papel-de-parede-gerado-por-ai_643360-20643.jpg);
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 2% 26%;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 10px;
+
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  #listaFilmes img {
+    margin: 10px;
+    height: 250px;
+    width: 200px;
+  }
+
+  #listaFilmes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+    
+  }
+  
+  input {
+    display: block;
+    padding: 10px 15px;
+    width: 50%;
+  }
+  
+  button {
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+
+  }
+  
+  .form-wrapper button:hover {
+    opacity: 0.8;
+  }
+  
+  label{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  label:first-child{
+    gap: 17px;
+  }
+
+  label:nth-child(2){
+    gap: 78px;
+  }
+
+  button:first-child{
+    margin-top: 20px;
+  }
+
+  #remover{
+    margin: 0 20px;
+    width: 20%;
+      
+  }
+
+  h2{
+    font-size: 1rem;
+  }
+
+  a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .filmes{
+    margin: 14px;
+  }
+
+  label:nth-child(4){
+    display: flex;
+    justify-content: flex-end;
+  }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dudaflix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="container">
+
+    <h1 class="page-title"> Dudaflix
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+        alt="">
+    </h1>
+
+
+
+    <h2 class="page-subtitle"> Qual seu filme favorito?</h2>
+
+    <div class="form-wrapper">
+
+      <label for="nomeFilme"> Insira o nome do filme:
+
+        <input type="text" name="nomeFilme" id="nomeFilme" placeholder="Insira o nome do filme" >
+
+      </label>
+
+      <label for="filme"> Banner do Filme:
+
+        <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+
+      </label>
+
+      <label for="trailer"> Insira o link do Youtube:
+
+        <input type="text" id="trailer" name="trailer" placeholder="Insira o URL do trailer">
+
+      </label>
+
+      <button onClick="adicionarFilme()">Adicionar Filme</button>
+      
+    </div>
+  </header>
+  
+  <main id="listaFilmes"></main>
+  
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+
+  <label for="remover">Remova um item da lista:
+  
+    <input type="text" name="remover" id="remover" placeholder="Qual filme deseja excluir?">
+  
+    <button onClick="removerFilme()">Remover Filme</button>
+  
+  </label>
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
